@@ -1,0 +1,33 @@
+import sqlite3 from 'sqlite3';
+
+const DATABASE_FILE = process.env.DATABASE_FILE;
+if (!DATABASE_FILE)
+    throw new Error("Arquivo da base de dados não informado.");
+
+export const openConnection = () => {
+    let db = new sqlite3.Database(DATABASE_FILE);
+    return db;
+}
+
+export const dbIdQuery = async (query: string, params?: any[]) => {
+    const retorno = await dbQuery(query, params);
+    return retorno[0];
+}
+
+export const dbQuery = async (query: string, params?: any[]) => {
+    let db = openConnection();
+
+    try {
+        return await new Promise<any[]>((resolve, reject) => {
+            db.all(query, params, (err, rows) => {
+                if (err)
+                    reject(err);
+
+                else
+                    resolve(rows);
+            });
+        });
+    } finally {
+        db.close();
+    }
+}
