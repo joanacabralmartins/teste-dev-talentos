@@ -10,9 +10,9 @@ A estrutura de dados utilizada neste teste é composta pelos seguintes campos:
 
 ## Criando um Post
 Enviando os dados:
-![image](https://github.com/joanacabralmartins/teste-dev-talentos/assets/72701310/5a4054ee-cd8d-4d3f-a93f-becfae6528a2)
+  ![image](https://github.com/joanacabralmartins/teste-dev-talentos/assets/72701310/5a4054ee-cd8d-4d3f-a93f-becfae6528a2)
 
 Retorno de sucesso:
-![image](https://github.com/joanacabralmartins/teste-dev-talentos/assets/72701310/680c9e13-d2c6-4124-bfb9-ac8d66250462)
+  ![image](https://github.com/joanacabralmartins/teste-dev-talentos/assets/72701310/680c9e13-d2c6-4124-bfb9-ac8d66250462)
 
 
