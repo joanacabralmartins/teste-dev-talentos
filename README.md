@@ -24,6 +24,13 @@ A estrutura de dados utilizada neste teste é composta pelos seguintes campos:
 
 ![image](https://github.com/joanacabralmartins/teste-dev-talentos/assets/72701310/650cffac-96ed-4ad1-8fdb-9bc02016df8c)
 
+## Excluindo um post existente com base no seu ID
+![image](https://github.com/joanacabralmartins/teste-dev-talentos/assets/72701310/84d9e79d-c82b-443e-8cc6-4b23504e8e01)
+
+![image](https://github.com/joanacabralmartins/teste-dev-talentos/assets/72701310/b86e8e8e-4614-4b3b-a060-f34fe9f0953c)
+
+
+
 
 
 
